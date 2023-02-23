@@ -2,10 +2,10 @@
   "name": "Alphabot-Md",
   "version": "17.0.4",
   "description": "Alphabot Md, Only update in YouTube ZEEONE OFC",
-  "main": "npm i -g pm2 && pm2 zeeone.js && pm2 save && pm2 logs",
+  "main": "zeeone.js",
   "license": "MIT",
   "scripts": {
-    "start": "node zeeone.js"
+    "start": "npm i -g pm2 && pm2 zeeone.js && pm2 save && pm2 logs"
    },
   "keywords": [
     "whatsapp",
